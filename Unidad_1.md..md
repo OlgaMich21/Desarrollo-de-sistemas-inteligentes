@@ -4,3 +4,4 @@ Más conocimientos en el desarrollo y creaciones de sistemas e implementarle la 
 
 ¿Qué considera usted que es un 
 sistema inteligente?
+Es una herramienta que ayuda a que los sistemas sean de algún modo razonables, en base con sensores o entradas de datos 
