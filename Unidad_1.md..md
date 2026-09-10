@@ -6,7 +6,7 @@ Más conocimientos en el desarrollo y creaciones de sistemas e implementarle la 
 sistema inteligente?
 Es una herramienta que ayuda a que los sistemas sean de algún modo razonables, en base con sensores o entradas de datos 
 
-**Act. 1.2 Casos de uso de Zabbix
+**Act. 1.2 Casos de uso de Zabbix**
 
 - **Minería:** Monitoreo de presas de alto riesgo y 48,000 activos; previno fallas estructurales y ahorró millones en mantenimiento.
 - **Siderurgia (Acindar):** Centralización de toda su infraestructura de TI en una sola plataforma; aceleró la detección de incidentes.
