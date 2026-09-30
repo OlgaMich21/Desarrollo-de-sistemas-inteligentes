@@ -23,3 +23,28 @@ Matriz de confusión: Es una tabla bidimensional que se utiliza para evaluar el 
 Sobreajuste: este ocurre cuando un modelo de Machine Learning aprende detalladamente datos de entrenamiento, en lugar de entender el patrón general
 Falso Positivo: ocurre cuando un sistema afirma que encontró algo pero se ha equivocado.
 Falso negativo: el sistema afirma que no encontró nada, pero se ha equivocado
+
+*ACT. 2.4:*
+1° Árbol de decisión: diagrama de flujo que ayuda a representar de forma visual las elecciones o los resultados finales de un problema.
+Por ejemplo, diagnóstico médico preliminar conectando síntomas con enfermedades comunes.
+2° Regresión logística: es un método estadístico que ayuda a calcular la probabilidad de que ocurra un evento con dos resultados posibles
+Por ejemplo, Predecir si un cliente cancelará su servicio de telefonía o internet en función de sus llamadas a soporte o uso mensual.
+3° k vecinos mas cercanos (K-NN): es un método de aprendizaje supervisado que ayuda a clasificar datos nuevos o calcular valores basándose en la cercanía de datos ya conocidos.
+Por ejemplo, en sistemas de recomendación, como Netflix usan KNN para sugerir películas o series basándose en los gustos de usuarios con perfiles similares.
+4° Naive Bayes: algoritmo de aprendizaje supervisado rápido y probabilístico basado en el teorema de Bayes.
+Por ejemplo, el filtrado de correo no deseado (spam) en bandejas de entrada
+5° SVM: algoritmos de aprendizaje supervisado en inteligencia artificial que sirven para clasificar datos y resolver problemas.
+Por ejemplo, se utilizan para resolver problemas de clasificación y regresión en inteligencia artificial. Detección de rostros e imágenes.
+6° Bosque aleatorio: ) es un algoritmo de aprendizaje automático (_machine learning_) supervisado que combina muchos árboles de decisión para lograr una predicción más exacta y estable.
+Por ejemplo, evaluación de solicitudes de crédito para determinar la probabilidad de que un cliente pague un préstamo o caiga en incumplimiento (_scoring_ crediticio).
+7° Red Neuronal: es un modelo computacional de Inteligencia Artificial inspirado en el funcionamiento del cerebro humano, diseñado para procesar datos y reconocer patrones complejos.
+Por ejemplo, asistentes de voz como Siri o Alexa que transforman sonidos en texto y responden preguntas.
+
+Referencias APA :
+_¿Qué es el algoritmo de k vecinos más cercanos? | IBM_. (2026, August 16). https://www.ibm.com/mx-es/think/topics/knn
+Schoonjans, F. (2026, August 3). _Regresión logística | MedCalc software_. MedCalc. https://www.medcalc.org/es/manual/logistic-regression.php
+De Canva, E. E. (2026, June 9). _¿Qué es un árbol de decisiones? (plantillas y consejos) | Canva_. Canva. https://www.canva.com/es_co/tablero-virtual/arbol-de-decisiones/
+_¿Qué son los clasificadores NaÏve Bayes? | IBM_. (2026, August 16). https://www.ibm.com/mx-es/think/topics/naive-bayes
+_¿Qué es Support Vector Machine? | IBM_. (2026, August 16). https://www.ibm.com/mx-es/think/topics/support-vector-machine
+_¿Qué es random forest? | IBM_. (2026, August 16). https://www.ibm.com/mx-es/think/topics/random-forest
+_¿Qué es una red neuronal? Tipos, ventajas y aplicaciones | Fortinet_. (n.d.). Fortinet. https://www.fortinet.com/lat/resources/cyberglossary/neural-network
