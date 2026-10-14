@@ -44,12 +44,29 @@ Mide la cantidad de operaciones que necesita realizar para encontrar un elemento
 Complejidad en espacio:
 Mide la cantidad total de memoria RAM o de almacenamiento que el algoritmo necesita para ejecutarse en relación con el tamaño de los datos de entrada
 
-![[Captura de pantalla 2026-10-08 181232.png]]
+![[Captura de pantalla 2026-10-08 181232.png|409]]
 Explora en una sola desde el inicio verde, es lento porque recorre casi todo el mapa para hallar el objetivo
-![[Captura de pantalla 2026-10-08 181253.png]]
+![[Captura de pantalla 2026-10-08 181253.png|428]]
 Lanza dos búsquedas al mismo tiempo. Se encuentran en el medio, reduciendo mucho el área explorada
-![[Captura de pantalla 2026-10-08 181312.png]]
+![[Captura de pantalla 2026-10-08 181312.png|405]]
 Funciona igual que BFS unidireccional, genera un enorme circulo de exploración
-![[Captura de pantalla 2026-10-08 181323.png]]
+![[Captura de pantalla 2026-10-08 181323.png|408]]
 Combina Dijkstra con búsqueda en ambas direcciones, es la opción más rápida y eficiente
 
+Búsqueda heurística:
+Método de resolución de problemas en Inteligencia Artificial y ciencias de la computación que utiliza reglas prácticas, atajos o estimaciones para encontrar una solución aceptable de forma rápida, sin revisar todas las combinaciones posibles
+
+*ACT 3.2:*
+Algoritmos (A*) y uno ciego.
+¿Qué longitud tiene cada algoritmo? 23
+¿Cuánto tiempo se tardo cada algoritmo? 0,2000ms
+
+![[Captura de pantalla 2026-10-14 155538.png|445]]
+
+¿Qué longitud tiene cada algoritmo? 18,31
+¿Cuánto tiempo se tardo cada algoritmo? 1,3000 ms
+
+![[Captura de pantalla 2026-10-14 155711.png|452]]
+
+¿Qué diferencia observas? 
+El camino es más corto (18,31 frente a 23 anterior) porque se habilitó el movimiento en diagonal, permitiendo trazar una línea más directa hacia la meta, aunque a costo de procesar muchos más nodos.
