@@ -1,3 +1,9 @@
+
+
+
+
+
+
 *ACT 3.1:*
 Problemas de búsqueda:
 Se encarga de buscar una secuencia de acciones o un camino desde un estado inicial hasta un estado objetivo dentro de un espacio de estados
@@ -70,3 +76,30 @@ Algoritmos (A*) y uno ciego.
 
 ¿Qué diferencia observas? 
 El camino es más corto (18,31 frente a 23 anterior) porque se habilitó el movimiento en diagonal, permitiendo trazar una línea más directa hacia la meta, aunque a costo de procesar muchos más nodos.
+
+3.4:
+1. ¿Cómo se benefician las Redes Neuronales de las GPUs?
+
+Las redes neuronales, especialmente el Deep Learning (aprendizaje profundo), requieren realizar miles de millones de operaciones matemáticas simples de forma simultánea. Las GPUs están diseñadas exactamente para eso.
+
+- *Procesamiento masivo en paralelo:* A diferencia de una CPU (que tiene pocos núcleos pero muy rápidos para tareas secuenciales), una GPU tiene *miles de núcleos más pequeños* diseñados para manejar múltiples tareas a la vez. Esto permite calcular los pesos y sesgos de millones de neuronas simultáneamente.
+
+- *Aceleración de operaciones de álgebra lineal:* El entrenamiento de una red neuronal consiste casi en su totalidad en *multiplicaciones de matrices y sumas de vectores*. Las GPUs destacan en este tipo de matemáticas, reduciendo el tiempo de entrenamiento de meses a solo horas o días.
+
+- *Hardware especializado (Tensor Cores):* Las GPUs modernas (como las arquitecturas Tensor de NVIDIA) incluyen núcleos dedicados exclusivamente a acelerar las operaciones de matriz utilizadas en IA, lo que multiplica la eficiencia energética y la velocidad de cómputo.
+
+- *Ancho de banda de memoria masivo:* Mover los gigantescos conjuntos de datos (datasets) a través del procesador requiere conexiones ultrarrápidas. Las GPUs utilizan memorias de alta velocidad (como HBM o GDDR) que evitan los cuellos de botella al alimentar la red neuronal con datos.
+2. ¿Cómo se benefician las GPUs de las Redes Neuronales?
+
+El éxito de las redes neuronales transformó por completo la industria de los gráficos por computadora y redefinió el propósito de las GPUs.
+
+- *Evolución arquitectónica y nuevos mercados:* Originalmente creadas solo para videojuegos, el éxito de la IA obligó a empresas como NVIDIA, AMD e Intel a rediseñar sus chips. Esto creó un mercado multimillonario en centros de datos e IA que hoy supera los ingresos del sector de los videojuegos.
+
+- *Mejora de gráficos mediante IA (DLSS y FSR):* Las GPUs utilizan redes neuronales integradas para *renderizar imágenes a menor resolución y reescalarlas inteligentemente en tiempo real* (técnicas como NVIDIA DLSS o AMD FSR). Esto permite que los videojuegos corran al doble de fotogramas por segundo con un consumo de energía menor.
+
+- *Generación de fotogramas y Ray Tracing:* Las redes neuronales dentro de la GPU ayudan a predecir e interpolar fotogramas completos (Frame Generation) y a "limpiar" el ruido visual que genera el cálculo de iluminación realista (Ray Tracing) mediante algoritmos de denoising basados en IA.
+
+- *Optimización del propio silicio:* Los ingenieros ahora utilizan redes neuronales para *diseñar la próxima generación de GPUs*, optimizando el acomodo de los transistores en el chip para que consuman menos energía y disipen mejor el calor.
+  
+  Act 3.5:
+- ![[Pasted image 20261021180733.png]]
